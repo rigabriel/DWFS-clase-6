@@ -1,0 +1,82 @@
+body {
+  background-color: #A3B4E0;
+}
+
+img {
+  width:250px;
+  height:250px;
+  display: block;
+}
+
+div.nav {
+  background: url(images/noise.jpg);
+  margin: 40px auto;
+  padding: 30px;
+  font-family: Verdana;
+  width: 940px;
+
+}
+
+.nav h1 {
+  color: black;
+}
+
+#izquierda{
+  margin-left: auto;
+}
+
+#centro{
+  margin-left: 350px ;
+}
+
+#derecha{
+  margin-left: 750px ;
+}
+
+div.cv {
+  background: url(images/noise.jpg);
+  font-family: Verdana;
+  width: 900px;
+  height: 1300px;
+  margin: 50px auto;
+  padding: 30px;
+
+}
+
+div.datos-personales, div.experiencia, div.formacion {
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+}
+
+
+#foto{
+  margin: 45px 0;
+  float: right;
+  border: 5px solid black;
+
+}
+
+#nombre{
+  margin: 25px 0 25px 0;
+}
+
+div.datos-personales h3 {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid black;
+}
+
+
+h3 {
+   font-size: 20px;
+   border-bottom: 1px solid black;
+ }
+
+#proyect li {
+  list-style: none;
+}
+
+#proyect li img {
+   float:left;
+   width: 90px;
+   height: 90px;
+}
